@@ -1,0 +1,39 @@
+body {
+	min-height: 1500px;
+}
+.jumbotron {
+	background-image: linear-gradient(180deg, blanchedalmond, rgb(255, 255, 255));
+	padding: 4rem 1rem;
+
+	object-fit: cover;
+	text-transform: uppercase;
+	background-position: center;
+}
+.jumbo {
+	background-image: linear-gradient(180deg, rgb(248, 197, 122), rgb(255, 255, 255));
+	padding: 4rem 1rem;
+
+	margin: 0rem auto;
+	object-fit: cover;
+	background-position: center;
+}
+.jum {
+	padding: 1rem 1rem;
+	margin: 0rem auto;
+	object-fit: cover;
+	background-position: center;
+}
+.carousel {
+	width: 55rem;
+	height: 30rem;
+}
+section {
+	padding-top: 4rem;
+}
+.padding {
+	padding-top: 4rem;
+}
+
+img {
+	object-fit: cover;
+}
