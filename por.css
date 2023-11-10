@@ -37,3 +37,23 @@ section {
 img {
 	object-fit: cover;
 }
+
+.my-element {
+	display: inline-block;
+	margin: 0 0.5rem;
+
+	animation: animate__flash; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 2s; /* don't forget to set a duration! */
+}
+.animate__animated.animate__flash {
+	--animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+	--animate-duration: 800ms;
+	--animate-delay: 0.9s;
+}
+.about {
+	padding: 55px;
+}
